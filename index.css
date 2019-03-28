@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.project-title, h1 {
+    margin: auto;
+    text-align: center;
+}
+
+#div-navbar {
+    margin: auto;
+    
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#navbar a {
+    padding: 14px 16px;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+#navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+#div-welcome-section {
+    margin-top: 50px;
+}
+
+section {
+    padding: 10px;
+    margin: auto;
+}
+
+#profiles {
+    background-color: #e4a8f9;
+    height: 50vh;
+}
+#welcome-section {
+    height: 100vh;
+    background-color: #83d6b7;
+}
+
+.project-title {
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    background-color:grey;
+    transition: 3s;
+    
+}
+
+#projects {
+    overflow: auto;
+    margin: auto;
+    background-color:#99ea86;
+}
+
+#blog {
+    background-color: #ec6262;
+}
+.even {
+    float: right;
+    margin: 25px;
+}
+.odd {
+    float: left;
+    margin: 25px;
+}
+
+@media (max-width: 700px) {
+    
+    .project-title {
+        margin: 20px;
+        background-color: white;
+        transition: 3s;
+    }
+    .even {
+        float:left;
+        margin: 25px;
+    }
+    
+    .odd {
+        float: left;
+        margin: 25px;
+    }
+}
